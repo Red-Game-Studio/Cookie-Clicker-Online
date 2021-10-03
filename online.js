@@ -64,7 +64,8 @@ if (p_success) {
 }
 }
 var p = () => Game.Prompt("<b>Cookie Clicker Online by RedBigz</b><hr><br><table><tr><th>Join ID</th><th>Name</th></tr><tr><td><input id=\'cco_join\'></td><td><input id='cco_name'></td></tr></table>", [["Join", "cco()"]]);
-document.querySelector("#storeTitle").innerHTML = `<div id='onlinebox' style="border: none; border-radius: 5px; "></div><br><br>${document.querySelector("#storeTitle").innerHTML}`
-document.querySelector("#onlinebox").innerHTML = '<button class="product unlocked enabled" onclick="p()"><div class="title">Play Online</div></button><br><br>'
+//document.querySelector("#storeTitle").innerHTML = `<div id='onlinebox' style="border: none; border-radius: 5px; "></div><br><br>${document.querySelector("#storeTitle").innerHTML}`
+//document.querySelector("#onlinebox").innerHTML = '<button class="product unlocked enabled" onclick="p()"><div class="title">Play Online</div></button><br><br>'
 //style="background-color: white; border: 1px solid grey; border-radius: 4px; width: 100%;"
+p()
 document.innerHTML = _;
