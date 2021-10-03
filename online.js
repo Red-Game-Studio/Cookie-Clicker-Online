@@ -27,12 +27,12 @@ var rebuildNames = (x) => {
 }
 
 var mainGet = (json) => {
+    Game.bakeryNameSet(json.Name);
     if (json.Players == 1) document.querySelector("#bakeryName").innerHTML = `${json.Name} (${json.Players.toString()} Player)`;
     else document.querySelector("#bakeryName").innerHTML = `${json.Name} (${json.Players.toString()} Players)`;
     Game.Earn(json.Cookies - Game.cookies)
     last = json.Cookies
     playernames = rebuildNames(json.PlayerNames);
-    Game.bakeryNameSet(json.Name);
 }
 
 var get = (site) => {
