@@ -63,7 +63,8 @@ if (p_success) {
     document.querySelector("#bakeryName").onclick = () => Game.Prompt(`<br><b>Cookie Clicker Online by RedBigz</b><br><br><hr><br><i>Player List</i><br><br>${playernames}<br><br><hr><br><i>About</i><br><br><b>Cookie Clicker Online</b><br><i>by RedBigz</i><br><br>@RedBigz on Glitch<br>cookieclickeronline.glitch.me/<br><br>`, [["Leave Multiplayer", "window.location.reload()"]]);
 }
 }
-var p = () => Game.Prompt("<b>Cookie Clicker Online by RedBigz</b><hr><br><table><tr><th>Join ID</th><th>Name</th></tr><tr><td><input id=\'cco_join\'></td><td><input id='cco_name'></td></tr></table>", [["Join", "cco()"]]);
+var p = () => Game.Prompt("<b>Cookie Clicker Online by RedBigz</b><hr><br><table><tr><th>Join ID</th><th>Name</th></tr><tr><td><input id=\'cco_join\'></td><td><input id='cco_name'></td></tr></table>", [["Join", ""]]);
+document.querySelector("#promptOption0").onclick = () => {document.querySelector("#promptOption0").onclick = null; cco()}
 //document.querySelector("#storeTitle").innerHTML = `<div id='onlinebox' style="border: none; border-radius: 5px; "></div><br><br>${document.querySelector("#storeTitle").innerHTML}`
 //document.querySelector("#onlinebox").innerHTML = '<button class="product unlocked enabled" onclick="p()"><div class="title">Play Online</div></button><br><br>'
 //style="background-color: white; border: 1px solid grey; border-radius: 4px; width: 100%;"
