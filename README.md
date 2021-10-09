@@ -7,12 +7,16 @@ Online Cookie Clicker.
 ## Download
 ### Bookmarklet (Compatible with new servers only)
 
+V3 isn't ready yet...
+
+### Bookmarklet (Compatible with old servers only)
+
+Compatibility servers will not show on the server list.
+
 #### Updatable (Always at latest version.)
 ```
 javascript:fetch("https://raw.githubusercontent.com/Red-Game-Studio/Cookie-Clicker-Online/main/online.src.js").then(x => x.text().then(res => eval(res)))
 ```
-
-### Bookmarklet (Compatible with old servers only)
 
 #### v2.1
 ```
