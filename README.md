@@ -5,13 +5,10 @@ Online Cookie Clicker.
 [Servers (cookieclickeronline.glitch.me)](https://cookieclickeronline.glitch.me)
 
 ## Download
+
+v3 does not use any bookmarklets.
+
 ### Bookmarklet (Compatible with new servers only)
-
-V3 isn't ready yet...
-
-### Bookmarklet (Compatible with old servers only)
-
-Compatibility servers will not show on the server list.
 
 #### Updatable (Always at latest version.)
 ```
