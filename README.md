@@ -6,9 +6,12 @@ Online Cookie Clicker.
 
 ## Download
 
-v3 does not use any bookmarklets.
+v3 has a library called v3Lib. Clients will be a fork of v3Lib.
+[Go to repo](https://github.com/Red-Game-Studio/Cookie-Clicker-Online-v3Lib)
 
-### Bookmarklet (Compatible with new servers only)
+### Bookmarklet (Incompatible)
+
+The following executables will not work.
 
 #### Updatable (Always at latest version.)
 ```
