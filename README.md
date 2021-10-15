@@ -16,7 +16,7 @@ v3 has a library called v3Lib. Clients will be a fork of v3Lib.
 #### v3.0 Loader
 
 ```
-javascript:fetch("https://raw.githubusercontent.com/Red-Game-Studio/Cookie-Clicker-Online/main/v3.loader.js").then(x => x.text().then(res => eval(res)))
+javascript:fetch("https://raw.githubusercontent.com/Red-Game-Studio/Cookie-Clicker-Online/main/v3.loader.js", {cache: "reload"}).then(x => x.text().then(res => eval(res)))
 ```
 
 ### Bookmarklet (Incompatible)
