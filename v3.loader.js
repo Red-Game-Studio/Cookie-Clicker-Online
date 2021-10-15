@@ -18,9 +18,9 @@ function pl(al, val) {
 		var val = document.querySelector("#ghrepo").value;
 		var link = `https://raw.githubusercontent.com/${val}/main/`;
 
-		fetch(link + "lib.js").then(x => x.text().then(res => {
+		fetch(link + "lib.js", {cache: "reload"}).then(x => x.text().then(res => {
 			window.v3Lib = eval(res + "\nv3Lib;");
-			fetch(link + "client.js").then(x => x.text().then(res => {
+			fetch(link + "client.js", {cache: "reload"}).then(x => x.text().then(res => {
 				window.OnlineClientLoader_Client = eval(res + "\nOnlineClientLoader_Client;");
 			}));
 		}));
