@@ -6,8 +6,18 @@ Online Cookie Clicker.
 
 ## Download
 
+If you are using a javascript:fetch... link, first clear your cache.
+
+### v3.0
+
 v3 has a library called v3Lib. Clients will be a fork of v3Lib.
 [Go to repo](https://github.com/Red-Game-Studio/Cookie-Clicker-Online-v3Lib)
+
+#### v3.0 Loader
+
+```
+javascript:fetch("https://raw.githubusercontent.com/Red-Game-Studio/Cookie-Clicker-Online/main/v3.loader.js").then(x => x.text().then(res => eval(res)))
+```
 
 ### Bookmarklet (Incompatible)
 
